@@ -19,3 +19,7 @@ def test_check_numpy_array_fail():
 def test_ex_check_numpy_array():
     state = create_x_state(np.array([1,2,3]), np.array([1,2, 3]))
     Ex(state).multi(check_numpy_array('x'))
+
+def test_ex_rshift_check_numpy_array_fail():
+    state = create_x_state(np.array([1,2,3]), np.array([1,2]))
+    with pytest.raises(TF): Ex(state) >> check_numpy_array('x')
