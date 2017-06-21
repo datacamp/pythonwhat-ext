@@ -14,7 +14,7 @@ setup(
 	name = 'pythonwhat-ext',
 	version = version,
         py_modules= ['pythonwhat_ext'],
-        install_requires = [],
+        install_requires = ['pythonwhat>=2.7'],
         description = 'pythonwhat extensions - high level SCTs',
         author = 'Michael Chow',
         author_email = 'michael@datacamp.com',
