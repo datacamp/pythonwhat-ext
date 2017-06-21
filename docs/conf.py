@@ -25,7 +25,7 @@ def state_dec(f):
         return f(*args, **kwargs)
     return wrapper
  
-MOCK_MODULES = ['sqlwhat.grammar.plsql.ast', 'sqlwhat', 'sqlwhat.sct_syntax']
+MOCK_MODULES = ['pythonwhat', 'numpy', 'pythonwhat.check_syntax']
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = mock.Mock(state_dec = state_dec)
 
