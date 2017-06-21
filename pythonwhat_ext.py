@@ -5,6 +5,12 @@ import numpy as np
 
 @state_dec
 def check_numpy_array(name, state = None):
+    """Test a numpy array object. Return that object.
+    
+    Args:
+        name: name of the object to be tested.
+
+    """
     # is defined
     obj = Ex(state).check_object(name)
 
