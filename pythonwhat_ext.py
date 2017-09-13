@@ -1,5 +1,7 @@
 __version__ = '0.0.1'
 
+# Import only from pythonwhat.check_syntax for extensions, as they contain
+# the correctly decorated SCTs, used on DataCamp.
 from pythonwhat.check_syntax import state_dec, Ex
 import numpy as np
 
