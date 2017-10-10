@@ -15,7 +15,8 @@ In the course's `requirements.sh`, add
 
 ```
 # replace 0.0.1 with the appropriate release version
-pip3 install pythonwhat-ext==0.0.1
+# be sure to use --no-deps flag, so it ONLY installs extension
+pip3 install --no-deps pythonwhat-ext==0.0.1
 ```
 
 To use the extensions in an exercise's SCT, import the function you want into the SCT block of the exercise:
