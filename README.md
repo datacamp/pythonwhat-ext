@@ -1,4 +1,4 @@
-# sqlwhat-ext
+# pythonwhat-ext
 
 [![Build Status](https://travis-ci.org/datacamp/pythonwhat-ext.svg?branch=master)](https://travis-ci.org/datacamp/pythonwhat-ext)
 [![PyPI version](https://badge.fury.io/py/pythonwhat-ext.svg)](https://badge.fury.io/py/pythonwhat-ext)
