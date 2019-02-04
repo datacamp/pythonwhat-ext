@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/datacamp/pythonwhat-ext.svg?branch=master)](https://travis-ci.org/datacamp/pythonwhat-ext)
 [![PyPI version](https://badge.fury.io/py/pythonwhat-ext.svg)](https://badge.fury.io/py/pythonwhat-ext)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdatacamp%2Fpythonwhat-ext.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdatacamp%2Fpythonwhat-ext?ref=badge_shield)
 
 
 Extensions (high-level SCTs) for pythonwhat
@@ -46,3 +47,7 @@ pip install -r requirements.txt
 #pip install -e .
 py.test tests
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdatacamp%2Fpythonwhat-ext.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdatacamp%2Fpythonwhat-ext?ref=badge_large)
